@@ -1,0 +1,4 @@
+Movement in floor 1, sub corridor 2
+Movement in floor 1, main corridor 1
+No movement in floor 1, sub corridor 2 for a minute
+No movement in floor 1, main corridor 1 for a minute
