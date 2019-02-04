@@ -173,8 +173,10 @@ signal_file = 'hotel-input-signal.txt'
 File.readlines(signal_file).each do |line|
   puts line
   floor, corridor, type, found_movement = process_input_signal(line)
-  p type
   h.switch_corridors(floor, corridor, type, found_movement)
+  puts "-------------------------------"
   h.print_hotel_status
+  puts "-------------------------------"
+
   puts "\n"
 end
